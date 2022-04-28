@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "任务-01分支循环作业",
+      "appliesTo": "01分支循环作业.c",
+      "type": "launch"
+    }
+  ]
+}
