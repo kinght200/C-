@@ -1,0 +1,43 @@
+cmake_minimum_required(VERSION 3.21)
+project(CProJect C)
+
+set(CMAKE_C_STANDARD 99)
+
+#add_library( hello_shared SHARED libHelloSLAM.cpp ) # 生成库
+#add_executable( useHello useHello.cpp ) #执行文件
+#target_link_libraries( useHello hello_shared ) # 链接库到执行文件上
+
+add_executable(CProJect main.c)
+
+add_executable(01shuju 第一章/01数据类型.c)
+add_executable(01Test 第一章/01Test.c)
+add_executable(02ChangLBianL 第一章/02常量变量.c)
+add_executable(03ZiFuChuan 第一章/03字符串.c)
+add_executable(04XuanZheYuju 第一章/04选择语句与循环语句.c)
+add_executable(05HanshuheShuzu 第一章/05函数和数组.c)
+add_executable(06CaoZuoFu 第一章/06操作符.c)
+add_executable(07ChangJianGuanJianZi 第一章/07常见关键字.c)
+add_executable(08ChanglHeHong 第一章/08常量和宏.c)
+add_executable(09ZhiZhen 第一章/09指针.c)
+add_executable(10JieGouTi 第一章/10结构体.c)
+add_executable(ZuoYe 第一章/作业.c)
+add_executable(01FenZhiYuJuifelse 第二章/01分支语句ifelse.c)
+add_executable(02switchYuJu 第二章/02switch语句.c)
+add_executable(03while 第二章/03while循环语句.c)
+add_executable(04for 第二章/04for循环语句.c)
+add_executable(05dowhile 第二章/05dowhile循环.c)
+add_executable(01FenZhiXunHuanZuoYe1 第二章/01分支循环作业.c)
+add_executable(06GotoYuJu 第二章/06Goto语句.c)
+add_executable(01HanShu 第三章/01函数.c)
+add_executable(02HanShuDeDiaoYong 第三章/02函数的调用.c)
+add_executable(03HanShuDeDiaoYongHeLianShiFangWen 第三章/03函数的嵌套调用和链式访问.c)
+add_executable(04HanShuDiGui 第三章/04函数递归.c)
+add_executable(01ZhuoYe 第三章/01作业.c)
+add_executable(01YiWeiShuZhu 第四章/01一维数组.c)
+add_executable(02ErWeiShuZu 第四章/02二维数组.c)
+add_executable(03ShuZhuZuoWeiHanShuCanShu 第四章/03数组作为函数参数.c)
+add_executable(04ShuZuYingYongSanZiQi "第四章/04数组应用 - 三子棋.c")
+add_executable(01test 第四章/三子棋/01test.c)
+include_directories(02game 第四章/三子棋/02game.h)
+add_executable(03game 第四章/三子棋/03game.c)
+add_executable(01CaoZuoFu 第五章/01操作符详解.c)
